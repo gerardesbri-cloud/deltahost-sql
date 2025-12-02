@@ -5,8 +5,8 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (name, email)
-VALUES ('Gerard', 'gerard@example.com')
-VALUES ('JanC', 'janc@example.com')
-VALUES ('JanI', 'jani@example.com')
-VALUES ('Alexandru', 'alexandru@example.com');
-
+VALUES 
+  ('Gerard', 'gerard@example.com'),
+  ('JanC', 'janc@example.com'),
+  ('JanI', 'jani@example.com'),
+  ('Alexandru', 'alexandru@example.com');
